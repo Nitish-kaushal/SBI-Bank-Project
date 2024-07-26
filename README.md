@@ -36,6 +36,7 @@ This method prints a farewell message and thanks the user for banking with them.
 It does not take any parameters and does not return any value.
 
 **Key Concepts**:-
+
 1.Static Field:- The balance field is static, meaning it is shared among all instances of the Bank class. In this case, there is only one instance (or no instances since all methods are static), and the balance is maintained as a class-level variable.
 
 2.Static Methods:- All the methods in the Bank class are static, which means they can be called without creating an instance of the class. This is why we can directly call methods like checkBalance(), deposit(), etc., within the main method.
